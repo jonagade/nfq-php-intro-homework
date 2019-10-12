@@ -1,0 +1,21 @@
+{
+    "name": "jonas/php-basics",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jonagade",
+            "email": "jonas.gadeikis9@gmail.com"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan": "^0.11.16"
+    },
+    "autoload": {
+        "files": [
+            "functions/calculateHomeWorkSum.php",
+            "functions/nfq/akademija/notTyped/calculateHomeWorkSum.php",
+            "functions/nfq/akademija/soft/calculateHomeWorkSum.php",
+            "functions/nfq/akademija/strict/calculateHomeWorkSum.php"
+        ]
+    }
+}
